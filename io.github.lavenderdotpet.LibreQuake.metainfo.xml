@@ -1,5 +1,5 @@
-<!-- https://docs.appimage.org/packaging-guide/optional/appstream.html#using-the-appstream-generator -->
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- https://docs.appimage.org/packaging-guide/optional/appstream.html#using-the-appstream-generator -->
 <component type="desktop-application">
   <id>io.github.lavenderdotpet.LibreQuake</id>
   <metadata_license>CC0-1.0</metadata_license>
@@ -20,12 +20,11 @@
       It must be paired with a compatible engine to be played.
     </p>
     <p>
-      This release is bundled with the
-      <a href="https://github.com/andrei-drexler/ironwail" target="_parent">ironwail</a>
+      This release is bundled with the ironwail
       sourceport which is released under the GPL-2.0 license.
     </p>
     <p>
-      There is a massive <a href="https://www.quaddicted.com" target="_parent">back catalogue</a>,
+      There is a massive back catalogue,
       spanning over two decades, containing thousands of <em>Quake</em> levels and other modifications (“mods”)
       made by fans of the game. <em>LibreQuake</em> aims to be compatible with these
       and allows most to be played without the need to use non-free software.
