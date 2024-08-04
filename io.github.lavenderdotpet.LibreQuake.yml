@@ -15,16 +15,16 @@ finish-args:
 modules:
   - shared-modules/libmad/libmad.json
 
-  - name: ironwail
+  - name: qss
     sources:
       - type: git
-        url: https://github.com/andrei-drexler/ironwail.git
-        tag: v0.7.0
+        url: https://github.com/Shpoike/Quakespasm.git
+        tag: 3aa4ceb4f4cf491413fbae9d16781a5e30940978
     buildsystem: simple
     build-commands:
-      - make --directory=Quake LDFLAGS="-L/app/lib"
-      - install -D -m744 -t /app/bin/ Quake/ironwail
-      - install -D -m755 -t /app/bin/ Quake/ironwail.pak
+      - make --directory=Quake USE_SDL2=1 LDFLAGS="-L/app/lib"
+      - install -D -m744 -t /app/bin/ Quake/quakespasm
+      - install -D -m755 -t /app/bin/ Quake/quakespasm.pak
 
   - name: librequake-data
     buildsystem: simple
@@ -41,7 +41,7 @@ modules:
       - type: script
         dest-filename: librequake.sh
         commands:
-          - /app/bin/ironwail -basedir /app/share/librequake "$@"
+          - /app/bin/quakespasm -basedir /app/share/librequake "$@"
     buildsystem: simple
     build-commands:
       - install -D -m744 -t /app/bin/ librequake.sh
