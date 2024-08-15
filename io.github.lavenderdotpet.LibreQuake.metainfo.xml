@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- https://docs.appimage.org/packaging-guide/optional/appstream.html#using-the-appstream-generator -->
+<!-- https://www.freedesktop.org/software/appstream/docs/chap-Metadata.html -->
 <component type="desktop-application">
   <id>io.github.lavenderdotpet.LibreQuake</id>
   <metadata_license>CC0-1.0</metadata_license>
@@ -14,27 +15,30 @@
   <summary>Free and open source first-person shooter</summary>
   <launchable type="desktop-id">io.github.lavenderdotpet.LibreQuake.desktop</launchable>
   <description>
-    <p>
-      The <em>LibreQuake</em> project aims to create a complete, free content first-person shooter game,
-      but <em>LibreQuake</em> by itself is just the raw material for a game.
-      It must be paired with a compatible engine to be played.
-    </p>
+    <p> The <em>LibreQuake</em> project aims to create a complete, free content first-person shooter
+      game, but <em>LibreQuake</em> by itself is just the raw material for a game. It must be paired
+      with a compatible engine to be played. </p>
     <p>
       This release is bundled with the ironwail
       sourceport which is released under the GPL-2.0 license.
     </p>
-    <p>
-      There is a massive back catalogue,
-      spanning over two decades, containing thousands of <em>Quake</em> levels and other modifications (“mods”)
-      made by fans of the game. <em>LibreQuake</em> aims to be compatible with these
-      and allows most to be played without the need to use non-free software.
-    </p>
+    <p> There is a massive back catalogue, spanning over two decades, containing thousands of <em>
+      Quake</em> levels and other modifications (“mods”) made by fans of the game. <em>LibreQuake</em>
+      aims to be compatible with these and allows most to be played without the need to use non-free
+      software. </p>
   </description>
   <url type="homepage">https://librequake.queer.sh/</url>
+  <url type="bugtracker">https://github.com/lavenderdotpet/LibreQuake/issues</url>
   <screenshots>
-    <screenshot type="default"><image>https://librequake.queer.sh/media/screenshot03.png</image></screenshot>
-    <screenshot><image>https://librequake.queer.sh/media/screenshot05.png</image></screenshot>
-    <screenshot><image>https://librequake.queer.sh/media/screenshot04.png</image></screenshot>
+    <screenshot type="default">
+      <image type="source">https://librequake.queer.sh/media/screenshot03.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://librequake.queer.sh/media/screenshot05.png</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://librequake.queer.sh/media/screenshot04.png</image>
+    </screenshot>
   </screenshots>
   <!-- https://hughsie.github.io/oars/generate.html -->
   <content_rating type="oars-1.0">
@@ -43,6 +47,6 @@
     <content_attribute id="social-chat">intense</content_attribute>
   </content_rating>
   <releases>
-    <release version=" v0.07-beta" date="2024-08-01"/>
+    <release version="v2024.08-beta-01" date="2024-08-15" />
   </releases>
 </component>

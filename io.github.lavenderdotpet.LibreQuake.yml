@@ -15,11 +15,11 @@ finish-args:
 modules:
   - shared-modules/libmad/libmad.json
 
-  - name: qss
+  - name: quakespasm
     sources:
       - type: git
-        url: https://github.com/Shpoike/Quakespasm.git
-        tag: 3aa4ceb4f4cf491413fbae9d16781a5e30940978
+        url: https://github.com/sezero/quakespasm.git
+        tag: quakespasm-0.96.3
     buildsystem: simple
     build-commands:
       - make --directory=Quake USE_SDL2=1 LDFLAGS="-L/app/lib"
@@ -30,8 +30,8 @@ modules:
     buildsystem: simple
     sources:
       - type: archive
-        url: "https://github.com/pnahratow/LibreQuake/releases/download/v0.07-test/full.zip"
-        sha256: "f9e94bcdcc0af0f9a50cb7c550299222872a407df30fd4cceb7afea4425bdda3"
+        url: "https://github.com/pnahratow/LibreQuake/releases/download/v2024.08-beta-01/full.zip"
+        sha256: "bf81370a91989956368a95e424421327783b50a3b239fa0844b3e4ae918467b7"
     build-commands:
       - install -d /app/share/librequake
       - mv id1 /app/share/librequake/
