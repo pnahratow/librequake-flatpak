@@ -41,7 +41,8 @@ modules:
       - type: script
         dest-filename: librequake.sh
         commands:
-          - /app/bin/quakespasm -basedir /app/share/librequake "$@"
+          - cp -avu /app/share/librequake/id1 "$XDG_DATA_HOME"/
+          - /app/bin/quakespasm -basedir "$XDG_DATA_HOME" "$@"
     buildsystem: simple
     build-commands:
       - install -D -m744 -t /app/bin/ librequake.sh
