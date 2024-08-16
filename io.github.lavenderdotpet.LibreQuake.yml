@@ -30,8 +30,8 @@ modules:
     buildsystem: simple
     sources:
       - type: archive
-        url: "https://github.com/pnahratow/LibreQuake/releases/download/v2024.08-beta-01/full.zip"
-        sha256: "bf81370a91989956368a95e424421327783b50a3b239fa0844b3e4ae918467b7"
+        url: "https://github.com/lavenderdotpet/LibreQuake/releases/download/v0.07-beta/full.zip"
+        sha256: "59dd151c2556ae95d92183053683cc842485fa49265a7cacf6566e0f500072d3"
     build-commands:
       - install -d /app/share/librequake
       - mv id1 /app/share/librequake/
