@@ -12,7 +12,7 @@
     <id>librequake.desktop</id>
   </provides>
   <name>LibreQuake</name>
-  <summary>Free and open source first-person shooter</summary>
+  <summary>Free content First-person shooter</summary>
   <launchable type="desktop-id">io.github.lavenderdotpet.LibreQuake.desktop</launchable>
   <description>
     <p> The <em>LibreQuake</em> project aims to create a complete, free content first-person shooter
@@ -29,12 +29,15 @@
   <url type="bugtracker">https://github.com/lavenderdotpet/LibreQuake/issues</url>
   <screenshots>
     <screenshot type="default">
+      <caption></caption>
       <image type="source">https://librequake.queer.sh/media/screenshot03.png</image>
     </screenshot>
     <screenshot>
+      <caption></caption>
       <image type="source">https://librequake.queer.sh/media/screenshot05.png</image>
     </screenshot>
     <screenshot>
+      <caption></caption>
       <image type="source">https://librequake.queer.sh/media/screenshot04.png</image>
     </screenshot>
   </screenshots>
