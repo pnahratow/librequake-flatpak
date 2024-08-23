@@ -23,8 +23,8 @@ modules:
     buildsystem: simple
     build-commands:
       - make --directory=Quake USE_SDL2=1 LDFLAGS="-L/app/lib"
-      - install -D -m744 -t /app/bin/ Quake/quakespasm
-      - install -D -m755 -t /app/bin/ Quake/quakespasm.pak
+      - install -D -m755 -t /app/bin/ Quake/quakespasm
+      - install -D -m644 -t /app/bin/ Quake/quakespasm.pak
 
   - name: librequake-data
     buildsystem: simple
