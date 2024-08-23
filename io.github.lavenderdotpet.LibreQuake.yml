@@ -5,11 +5,12 @@ sdk: org.freedesktop.Sdk
 command: librequake.sh
 
 finish-args:
-  - --device=dri  
+  - --device=dri
   - --share=ipc
   - --share=network
+  - --socket=fallback-x11
   - --socket=pulseaudio
-  - --socket=x11
+  - --socket=wayland
 
 modules:
   - shared-modules/libmad/libmad.json
