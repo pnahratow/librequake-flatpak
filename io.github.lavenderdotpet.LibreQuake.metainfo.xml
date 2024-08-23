@@ -31,16 +31,24 @@
   <url type="bugtracker">https://github.com/lavenderdotpet/LibreQuake/issues</url>
   <screenshots>
     <screenshot type="default">
-      <caption></caption>
-      <image type="source">https://librequake.queer.sh/media/screenshot03.png</image>
+      <caption>LibreQuake</caption>
+      <image type="source">https://librequake.queer.sh/media/flatpak/storepage04.png</image>
     </screenshot>
     <screenshot>
-      <caption></caption>
-      <image type="source">https://librequake.queer.sh/media/screenshot05.png</image>
+      <caption>LibreQuake</caption>
+      <image type="source">https://librequake.queer.sh/media/flatpak/storepage02.png</image>
     </screenshot>
     <screenshot>
-      <caption></caption>
-      <image type="source">https://librequake.queer.sh/media/screenshot04.png</image>
+      <caption>LibreQuake</caption>
+      <image type="source">https://librequake.queer.sh/media/flatpak/storepage03.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>LibreQuake</caption>
+      <image type="source">https://librequake.queer.sh/media/flatpak/storepage05.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>LibreQuake</caption>
+      <image type="source">https://librequake.queer.sh/media/flatpak/storepage01.png</image>
     </screenshot>
   </screenshots>
   <!-- https://hughsie.github.io/oars/generate.html -->
